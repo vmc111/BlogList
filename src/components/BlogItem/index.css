@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.list-element {
+  display: flex;
+  flex-direction: column;
+}
+.title-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-title {
+  color: #12022f;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.time {
+  color: #9aa5b1;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.item-description {
+  color: #616e7c;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.line {
+  color: #9aa5b1;
+  height: 1px;
+  width: 100%;
+}
